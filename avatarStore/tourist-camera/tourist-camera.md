@@ -1,7 +1,7 @@
 ---
 name: tourist-camera
 uuid: cf13858e-4e40-4f90-a792-ba5b09c63651
-image: /static/avatarStore/tourist-camera.png
+image: tourist-camera.png
 description: Sample Avatar, to showcase webcamera image piple line to agent. It takes a photo of a person using webcamera, and generates a tourist photo as per the users prompt.
 triggers:
   - webcam
@@ -18,7 +18,8 @@ Launch an Avatar UI webcamera interface.
 ```prompt
 Launch an Avatar UI interface with id "web-camera"
 ```
-## Step 2: 
+
+## Step 2:
 
 ```Description
 Launch an Avatar UI select-place interface
@@ -35,12 +36,13 @@ Generate a tourist photograph using the image from web camera as reference, and 
 ```
 
 Use the following prompt to describe the image
+
 ```prompt
-Edit the given image, using the image of the person from webcamera as reference, the image filename is given in the context. 
-Do not change the face of the person. 
+Edit the given image, using the image of the person from webcamera as reference, the image filename is given in the context.
+Do not change the face of the person.
 Do not alter the gender of the person.
 Do not change facial features of the person.
 Avoid nudity or exposing clothing.
 Change the background and surroundings as per the place mentioned in select-place-prompt in Step No.2.
-Style the clothing depending on the tourist place. 
+Style the clothing depending on the tourist place.
 ```
