@@ -1,7 +1,7 @@
 ---
 name: vedic-astrologer
 uuid: b44daf15-a204-436e-b693-6e310321bba8
-image: /static/avatarStore/vedic-astrologer.png
+image: vedic-astrologer.png
 description: Sample Avatar, with a simple multi field form. Uses MCP Server to show case white listed tool usecase.
 triggers:
   - election
@@ -12,7 +12,7 @@ mcp_servers:
 
 # Vedic Astrologer
 
-## Step 1: 
+## Step 1:
 
 ```Description
 Launch an Avatar UI interface.
